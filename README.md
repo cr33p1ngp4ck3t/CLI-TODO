@@ -4,18 +4,17 @@ A simple, menu-driven Python console application for managing todo tasks with in
 
 ## Features
 
-- ✨ Add new tasks
-- 📋 View all tasks with status
-- ✏️ Update task descriptions
-- 🗑️ Delete tasks
-- ✅ Mark tasks as complete/incomplete
-- 🎨 Beautiful CLI with Rich library styling
-- 🔤 ASCII art header with pyfiglet
+-   Add new tasks
+-   Update task descriptions
+-   Delete tasks
+-   Mark tasks as complete/incomplete
+-   Beautiful CLI with Rich library styling
+-   ASCII art header with pyfiglet
 
 ## Requirements
 
-- Python 3.13 or higher
-- UV package manager (recommended) or pip
+-   Python 3.13 or higher
+-   UV package manager (recommended) or pip
 
 ## Installation
 
@@ -23,7 +22,7 @@ A simple, menu-driven Python console application for managing todo tasks with in
 
 ```bash
 # Clone the repository
-cd "D:\Spec Driven Development\Hackathon II"
+git https://github.com/cr33p1ngp4ck3t/CLI-TODO
 
 # Install dependencies
 uv sync
@@ -32,12 +31,11 @@ uv sync
 ### Using pip
 
 ```bash
-# Create virtual environment
-python -m venv .venv
+# Activate virtual environment
 .venv\Scripts\activate  # On Windows
 # source .venv/bin/activate  # On Linux/Mac
 
-# Install dependencies
+# Install dev dependencies
 pip install -e ".[dev]"
 ```
 
@@ -104,28 +102,31 @@ The application presents a menu-driven interface:
 ## Phase I Specifications
 
 This is Phase I of the "Evolution of Todo" project. The implementation:
-- Uses **in-memory storage only** (no persistence)
-- Has **no external dependencies** beyond Rich and pyfiglet
-- Follows **clean architecture** principles
-- Implements **all basic CRUD operations**
-- Includes comprehensive test coverage
+
+-   Uses **in-memory storage only** (no persistence)
+-   Has **no external dependencies** beyond Rich and pyfiglet
+-   Follows **clean architecture** principles
+-   Implements **all basic CRUD operations**
+-   Includes comprehensive test coverage
 
 For complete specifications, see: `specs/001-phase1-todo-app/spec.md`
 
 ## Test Coverage
 
-- **34 tests** (27 unit + 7 integration)
-- **100% coverage** on service layer
-- All acceptance criteria validated
+-   **34 tests** (27 unit + 7 integration)
+-   **100% coverage** on service layer
+-   All acceptance criteria validated
 
 ## Next Steps
 
 Phase II will add:
-- Full-stack web application (Next.js + FastAPI)
-- Persistent storage (Neon PostgreSQL)
-- User authentication (Better Auth)
-- RESTful API
+
+-   Full-stack web application (Next.js + FastAPI)
+-   Persistent storage (Neon PostgreSQL)
+-   User authentication (Better Auth)
+-   RESTful API
 
 ## License
 
 This is an educational project demonstrating Spec-Driven Development methodology.
+
